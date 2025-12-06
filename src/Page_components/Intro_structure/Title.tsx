@@ -1,0 +1,9 @@
+function Greating(){
+    return (
+      <div className = "intro">
+     <h1>Hey, I Am Boucenna !</h1>
+     <p>Welcome To My Page. Software & Security</p>
+      </div>
+    );
+}
+export default Greating;
