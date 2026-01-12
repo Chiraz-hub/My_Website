@@ -1,14 +1,19 @@
-function Cards(){
+ interface cardsComp {
+  title: string;
+  description: string;
+  logo: React.ReactNode;
+ }
+const Cards : React.FC<cardsComp> = ({ title, description, logo }) => {
      return (
         <div className = "cards">
           <div className = "logo">
-            // logo common structure
+            {logo}
           </div>
           <div className = "desc">
-            <h3></h3> //Text formatted in consideration of the chooen element
-            <p></p>
+            <h3>{title}</h3> //Text formatted in consideration of the chooen element
+            <p>{description}</p>
           </div>
         </div>
      );
-}
+    };
  export default Cards;
