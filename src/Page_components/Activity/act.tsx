@@ -31,11 +31,14 @@ function Activity(){
       <div className = 'act-container'>
          <h1>What I do</h1> 
          <div className = 'card-container'>
-           <Cards 
-            title={'here is the title'} 
-            description={'here is the descritpion'} 
-            logo={'nothing'} 
+        {Act.map((item, index) => (
+          <Cards 
+            key={index} 
+            title={item.title} 
+            description={item.description} 
+            logo={item.logo} 
           />
+        ))}
          </div>
       </div>
     );

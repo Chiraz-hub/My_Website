@@ -10,7 +10,7 @@ const Cards : React.FC<cardsComp> = ({ title, description, logo }) => {
             {logo}
           </div>
           <div className = "desc">
-            <h3>{title}</h3> //Text formatted in consideration of the chooen element
+            <h3>{title}</h3> 
             <p>{description}</p>
           </div>
         </div>
