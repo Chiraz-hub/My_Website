@@ -1,0 +1,17 @@
+function Skill() {
+    return (
+        <div className = 'container-skill'>
+            <div className = 'des-skill'>
+                <h1>SkillSet Description</h1>
+                <p>
+                    software development, networking, and cybersecurity fundamentals, with a strong foundation in algorithms, system-level concepts, 
+                    and web technologies. I work with both theoretical and practical tools, and I continuously expand my skills 
+                    through hands-on projects, problem-solving, and self-directed learning.</p>
+            </div>
+            <div className = 'pic'>
+                { /* Put an aethestic pic */ }
+            </div>
+        </div>
+    )
+};
+export default Skill ;
