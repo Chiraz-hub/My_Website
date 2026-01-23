@@ -7,6 +7,7 @@ import Hire from "./Page_components/HireMe/hire"
 import SecBtn from './Page_components/Activity/SecBtn'
 import PrblmS from './Page_components/Activity/PrblmS'
 import Soft from './Page_components/Activity/Soft'
+import Math from './Page_components/Activity/Math'
 function App(){
  return (
      <div>
@@ -17,6 +18,7 @@ function App(){
     <SecBtn />
     <PrblmS />
     <Soft />
+    <Math />
     <Skill/>
     <Hire />
     </div>
