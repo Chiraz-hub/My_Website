@@ -33,8 +33,8 @@ const StyledWrapper = styled.div`
   .fingerprint-svg {
     width: 100%;
     height: 100%;
-    color: #00ff00;
-    filter: drop-shadow(0 0 5px #00ff00);
+    color: #0059ff;
+    filter: drop-shadow(0 0 5px #003cff);
     transition:
       transform 0.2s ease,
       filter 0.3s ease;
@@ -53,7 +53,7 @@ const StyledWrapper = styled.div`
     left: 0;
     width: 100%;
     height: 3px;
-    background: linear-gradient(to right, transparent, #00ff00, transparent);
+    background: linear-gradient(to right, transparent, #00b7ff, transparent);
     opacity: 0;
   }
 
@@ -73,7 +73,7 @@ const StyledWrapper = styled.div`
   .matrix-rain::before {
     content: "101010 1100 0011 0101 1001 1110 0010 1101";
     position: absolute;
-    color: #00ff00;
+    color: #005eff;
     font-size: 14px;
     opacity: 0.2;
     animation: rain 1.5s infinite linear;
@@ -89,7 +89,7 @@ const StyledWrapper = styled.div`
     top: 0;
     left: 0;
     border-radius: 50%;
-    border: 2px solid #00ff00;
+    border: 2px solid #006aff;
     opacity: 0;
     transform: scale(0);
   }
@@ -102,7 +102,7 @@ const StyledWrapper = styled.div`
     top: 0;
     left: 0;
     border-radius: 50%;
-    box-shadow: 0 0 20px #00ff00;
+    box-shadow: 0 0 20px #0095ff;
     opacity: 0;
   }
 
@@ -111,7 +111,7 @@ const StyledWrapper = styled.div`
     bottom: -30px;
     width: 100%;
     text-align: center;
-    color: #00ff00;
+    color: #0062ff;
     font-size: 16px;
     opacity: 0.7;
     text-transform: uppercase;
@@ -122,7 +122,7 @@ const StyledWrapper = styled.div`
   /* Hover effects */
   .fingerprint-container:hover .fingerprint-svg {
     transform: scale(1.1);
-    filter: drop-shadow(0 0 10px #00ff00);
+    filter: drop-shadow(0 0 10px #00bbff);
   }
 
   .fingerprint-container:hover .scan-line {
@@ -137,7 +137,7 @@ const StyledWrapper = styled.div`
   /* Click effects */
   .fingerprint-container:active .fingerprint-svg {
     transform: scale(1.05) rotate(360deg);
-    filter: drop-shadow(0 0 15px #00ff00) blur(1px);
+    filter: drop-shadow(0 0 15px #005eff) blur(1px);
     animation:
       hack-spin 0.8s ease-out,
       glitch 0.3s infinite;
@@ -170,7 +170,7 @@ const StyledWrapper = styled.div`
   }
 
   .fingerprint-container:active .glow {
-    box-shadow: 0 0 40px #00ff00;
+    box-shadow: 0 0 40px #0066ff;
     animation: glow-hack 0.8s ease-out;
   }
 
