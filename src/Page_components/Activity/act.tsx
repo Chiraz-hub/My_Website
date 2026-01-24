@@ -1,5 +1,4 @@
 import Cards from '../Formats/Card'
-//The text get rendred good
   const Act = [
     {
      id: 1,

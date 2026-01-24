@@ -4,10 +4,10 @@ import Desc from "./Page_components/About_Structure/Description"
 import Activity from "./Page_components/Activity/act"
 import Skill from "./Page_components/SkillSet/SkillDes"
 import Hire from "./Page_components/HireMe/hire"
-import SecBtn from './Page_components/Activity/SecBtn'
-import PrblmS from './Page_components/Activity/PrblmS'
-import Soft from './Page_components/Activity/Soft'
-import Math from './Page_components/Activity/Math'
+import SecBtn from './Page_components/Activity/ActIcon/SecBtn'
+import PrblmS from './Page_components/Activity/ActIcon/PrblmS'
+import Soft from './Page_components/Activity/ActIcon/Soft'
+import Math from './Page_components/Activity/ActIcon/Math'
 function App(){
  return (
      <div>
