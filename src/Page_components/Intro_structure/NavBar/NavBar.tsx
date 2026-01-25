@@ -1,3 +1,4 @@
+import './NavBar.css'
 function Nav(){
     return (
       <nav>

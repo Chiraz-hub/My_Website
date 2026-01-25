@@ -1,3 +1,4 @@
+ import Loader from './SkillLod'
 function Skill() {
     return (
         <div className = 'container-skill'>
@@ -9,7 +10,7 @@ function Skill() {
                     through hands-on projects, problem-solving, and self-directed learning.</p>
             </div>
             <div className = 'pic'>
-                { /* Put an aethestic pic */ }
+                <Loader />
             </div>
         </div>
     )
