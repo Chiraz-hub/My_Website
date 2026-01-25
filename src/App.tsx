@@ -4,6 +4,7 @@ import Desc from "./Page_components/About_Structure/Description"
 import Activity from "./Page_components/Activity/act"
 import Skill from "./Page_components/SkillSet/SkillDes"
 import Hire from "./Page_components/HireMe/hire"
+import Socials from './Page_components/Social/Soc'
 function App(){
  return (
      <div>
@@ -13,6 +14,7 @@ function App(){
     <Activity />
     <Skill/>
     <Hire />
+    <Socials />
     </div>
       );
 }
