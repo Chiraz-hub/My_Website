@@ -3,12 +3,33 @@
     display: flex;
     justify-content:space-around;
     align-items: center;
+    justify-content: space-between;
 }
  .text-description{
   border: 3px solid white;
   display : flex;
   flex-direction: column;
+  width: 50%;
  }
   .imageMe{
     border: 3p solid white;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .testimg{
+    font-size: 3rem;
+    
+  }
+  .whoami{
+    font-size: 3rem;
+    margin: 0px 0px 10px 10px;
+
+
+  }
+  .textdes{
+    font-size: 1.3rem;
+    margin: 10px 0px 0px 5px;
+
   }
