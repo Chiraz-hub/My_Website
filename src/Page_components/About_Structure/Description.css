@@ -1,0 +1,14 @@
+.description-container{
+    border: 5px solid white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+ .text-description{
+  border: 3px solid white;
+  display : flex;
+  flex-direction: column;
+ }
+  .imageMe{
+    border: 3p solid white;
+  }
