@@ -1,3 +1,4 @@
+ import './Cards.css'
  interface cardsComp {
   title: string;
   description: string;
