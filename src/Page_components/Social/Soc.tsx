@@ -1,10 +1,9 @@
 
 import styled from 'styled-components';
 
-const Socials = () => {
+const SocialsIcon = () => {
   return (
     <StyledWrapper>
-      <h1>Contact Me :</h1>
       <div className="main">
         <div className="up">
           <button className="card1">
@@ -153,4 +152,4 @@ const StyledWrapper = styled.div`
     fill: white;
   }`;
 
-export default Socials;
+export default SocialsIcon;

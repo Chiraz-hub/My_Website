@@ -6,13 +6,13 @@
  }
 const Cards : React.FC<cardsComp> = ({ title, description, logo }) => {
      return (
-        <div className = "cards">
-          <div className = "logo">
+        <div className = "cards-struct">
+          <div className = "logo-cards">
             {logo}
           </div>
-          <div className = "desc">
-            <h3>{title}</h3> 
-            <p>{description}</p>
+          <div className = "desc-cards">
+            <h3 className = 'cards-title'>{title}</h3> 
+            <p className = 'cards-description'>{description}</p>
           </div>
         </div>
      );
