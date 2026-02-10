@@ -32,8 +32,11 @@ import Soft from './ActIcon/Soft'
   ];
 function Activity(){
     return (
+      <div className='hole-act'>
+        <div>
+           <h1 className='activity-title'>What I do</h1>
+        </div>
       <div className = 'act-container'>
-        <h1>What I do</h1>
          <div className = 'card-container'>
         {Act.map((item, index) => (
           <Cards 
@@ -44,6 +47,7 @@ function Activity(){
           />
         ))}
          </div>
+      </div>
       </div>
     );
 }

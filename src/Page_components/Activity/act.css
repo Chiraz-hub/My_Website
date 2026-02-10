@@ -1,4 +1,9 @@
-
+.act-container{
+ display: flex;
+}
 .card-container{
     display: flex;
+}
+.activity-title{
+    font-size: 3rem;
 }

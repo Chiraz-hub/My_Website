@@ -29,7 +29,7 @@ const StyledWrapper = styled.div`
     to {
       transform: scale3d(0.2, 0.2, 0.2);
     }
-  }
+  } 
 
   .item {
     margin: -1.5625em;
