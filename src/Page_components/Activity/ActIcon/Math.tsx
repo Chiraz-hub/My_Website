@@ -21,8 +21,8 @@ const Loader = () => {
 
 const StyledWrapper = styled.div`
   .ai-matrix-loader {
-    width: 120px;
-    height: 160px;
+      width: 70.4px;
+     height: 70.4px;
     margin: 30px auto;
     position: relative;
     perspective: 800px;
