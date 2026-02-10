@@ -42,9 +42,9 @@ const StyledWrapper = styled.div`
   }
 
   .terminal-loader {
-    border: 0.1em solid #333;
-    background-color: #1a1a1a;
-    color: blue;
+    border: 0.1em solid #1a0090;
+    background-color: #2a41a37d;
+    color: #0077ff;
     font-family: "Courier New", Courier, monospace;
     font-size: 1em;
     padding: 1.5em 1em;
@@ -62,7 +62,7 @@ const StyledWrapper = styled.div`
     left: 0;
     right: 0;
     height: 1.5em;
-    background-color: #333;
+    background-color: #1b2596;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     padding: 0 0.4em;

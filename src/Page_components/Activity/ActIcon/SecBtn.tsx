@@ -25,7 +25,6 @@ const StyledWrapper = styled.div`
     position: relative;
     width: 160px;
     height: 160px;
-    cursor: pointer;
     animation: flicker 3s infinite ease-in-out;
     border-radius: 50%;
   }
@@ -33,7 +32,7 @@ const StyledWrapper = styled.div`
   .fingerprint-svg {
     width: 100%;
     height: 100%;
-    color: #0059ff;
+    color: #0077ffb5;
     filter: drop-shadow(0 0 5px #003cff);
     transition:
       transform 0.2s ease,
@@ -117,21 +116,6 @@ const StyledWrapper = styled.div`
     text-transform: uppercase;
     letter-spacing: 2px;
     animation: glitch-text 2s infinite;
-  }
-
-  /* Hover effects */
-  .fingerprint-container:hover .fingerprint-svg {
-    transform: scale(1.1);
-    filter: drop-shadow(0 0 10px #00bbff);
-  }
-
-  .fingerprint-container:hover .scan-line {
-    animation: scan 1s infinite linear;
-    opacity: 0.7;
-  }
-
-  .fingerprint-container:hover .matrix-rain {
-    opacity: 0.5;
   }
 
   /* Click effects */
