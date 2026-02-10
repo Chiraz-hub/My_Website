@@ -1,10 +1,15 @@
 .container-skill{
+   width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
  .des-skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     width: 70%;
-    margin: 0px 0px 10px 5px;
+    margin: 0px 0px 10px 10px;
  }
  .pic{
     width: 30%;
@@ -13,11 +18,16 @@
     margin: 0px 0px 0px 0px;
  }
  .title-skill{
+   width: 60%;
     font-size: 3rem;
+    text-align: center;
+    margin: 0px;
     padding: 0px 0px 0px 5px;
  }
-  .des-skill{
+  .desc-skill{
+   width: 60%;
+   text-align: center;
     font-size: 1.3rem;
     line-height: 38px;
-    padding: 0px 0px 0px 5px;
+    padding: 0px 0px 0px 10px;
   }

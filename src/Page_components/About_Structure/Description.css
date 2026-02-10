@@ -1,14 +1,15 @@
 .description-container{
+  width: 100%;
     display: flex;
     justify-content:space-around;
     align-items: center;
-    justify-content: space-between;
 }
  .text-description{
   display : flex;
   flex-direction:column;
   text-align: center;
   margin-left: 10px;
+  padding-left: 10px;
   width: 40%;
  }
   .imageMe{
@@ -19,13 +20,14 @@
   }
   .testimg{
     font-size: 3rem;
-    
   }
   .whoami{
+    text-align: center;
     font-size: 3rem;
    margin: 0;
   }
   .textdes{
     font-size: 1.3rem;
     line-height: 38px;
+    text-align: center;
   }

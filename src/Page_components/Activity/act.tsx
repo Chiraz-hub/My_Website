@@ -34,7 +34,7 @@ function Activity(){
     return (
       <div className='hole-act'>
         <div>
-           <h1 className='activity-title'>What I do</h1>
+           <h1 className='activity-title'>WHAT I DO ?</h1>
         </div>
       <div className = 'act-container'>
          <div className = 'card-container'>
