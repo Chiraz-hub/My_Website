@@ -32,11 +32,11 @@ const StyledWrapper = styled.div`
   }
 
   .digit {
-    color: #0077ff;
+    color: #e5e7eb;
     font-family: monospace;
     font-size: 18px;
     text-align: center;
-    text-shadow: 0 0 5px #0077ff;
+    text-shadow: 0 0 5px #e5e7eb;
     animation:
       matrix-fall 2s infinite,
       matrix-flicker 0.5s infinite;

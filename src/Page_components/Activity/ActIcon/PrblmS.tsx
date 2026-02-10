@@ -20,8 +20,8 @@ const StyledWrapper = styled.div`
   .spinner {
     width: 70.4px;
     height: 70.4px;
-    --clr: rgba(19, 155, 228, 0.59);
-    --clr-alpha: #0077ff3f;
+    --clr: rgba(72, 72, 72, 0.59);
+    --clr-alpha: #ffffffb0;
     animation: spinner 1.6s infinite ease;
     transform-style: preserve-3d;
   }

@@ -5,6 +5,7 @@
     display: flex;
 }
 .activity-title{
+    color: rgb(22, 208, 190);
     font-size: 3rem;
     margin: 0px 0px 15px 20px ;
 }

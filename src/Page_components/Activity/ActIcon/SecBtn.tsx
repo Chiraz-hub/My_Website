@@ -23,8 +23,8 @@ const Button = () => {
 const StyledWrapper = styled.div`
   .fingerprint-container {
     position: relative;
-    width: 160px;
-    height: 160px;
+    width: 155px;
+    height: 155px;
     animation: flicker 3s infinite ease-in-out;
     border-radius: 50%;
   }
@@ -32,8 +32,8 @@ const StyledWrapper = styled.div`
   .fingerprint-svg {
     width: 100%;
     height: 100%;
-    color: #0077ffb5;
-    filter: drop-shadow(0 0 5px #003cff);
+    color: #d3d3d3;
+    filter: drop-shadow(0 0 5px #d3d3d3);
     transition:
       transform 0.2s ease,
       filter 0.3s ease;
@@ -43,39 +43,6 @@ const StyledWrapper = styled.div`
     stroke-dasharray: 500; /* Adjusted for new path length */
     stroke-dashoffset: 0;
     animation: draw 4s infinite linear;
-  }
-
-  /* Scan effect */
-  .scan-line {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 3px;
-    background: linear-gradient(to right, transparent, #00b7ff, transparent);
-    opacity: 0;
-  }
-
-  /* Matrix rain */
-  .matrix-rain {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    background: linear-gradient(to bottom, rgba(0, 255, 0, 0.1), transparent);
-    overflow: hidden;
-    border-radius: 50%;
-  }
-
-  .matrix-rain::before {
-    content: "101010 1100 0011 0101 1001 1110 0010 1101";
-    position: absolute;
-    color: #005eff;
-    font-size: 14px;
-    opacity: 0.2;
-    animation: rain 1.5s infinite linear;
   }
 
   /* Ripples */
@@ -88,7 +55,7 @@ const StyledWrapper = styled.div`
     top: 0;
     left: 0;
     border-radius: 50%;
-    border: 2px solid #006aff;
+    border: 2px solid #d3d3d3;
     opacity: 0;
     transform: scale(0);
   }
@@ -110,7 +77,7 @@ const StyledWrapper = styled.div`
     bottom: -30px;
     width: 100%;
     text-align: center;
-    color: #0062ff;
+    color: #d3d3d3;
     font-size: 16px;
     opacity: 0.7;
     text-transform: uppercase;
@@ -118,28 +85,6 @@ const StyledWrapper = styled.div`
     animation: glitch-text 2s infinite;
   }
 
-  /* Click effects */
-  .fingerprint-container:active .fingerprint-svg {
-    transform: scale(1.05) rotate(360deg);
-    filter: drop-shadow(0 0 15px #005eff) blur(1px);
-    animation:
-      hack-spin 0.8s ease-out,
-      glitch 0.3s infinite;
-  }
-
-  .fingerprint-container:active .fingerprint-path {
-    animation: draw-fast 0.5s linear;
-  }
-
-  .fingerprint-container:active .glitch-line1 {
-    animation: glitch-move1 0.3s infinite;
-    opacity: 0.6;
-  }
-
-  .fingerprint-container:active .glitch-line2 {
-    animation: glitch-move2 0.3s infinite;
-    opacity: 0.6;
-  }
 
   .fingerprint-container:active .ripple1 {
     animation: ripple-effect 0.6s ease-out;
@@ -192,29 +137,6 @@ const StyledWrapper = styled.div`
     }
     100% {
       stroke-dashoffset: 0;
-    }
-  }
-
-  @keyframes scan {
-    0% {
-      transform: translateY(0);
-      opacity: 0.7;
-    }
-    50% {
-      opacity: 1;
-    }
-    100% {
-      transform: translateY(200px);
-      opacity: 0.7;
-    }
-  }
-
-  @keyframes rain {
-    0% {
-      transform: translateY(-100%);
-    }
-    100% {
-      transform: translateY(100%);
     }
   }
 

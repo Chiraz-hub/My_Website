@@ -42,9 +42,9 @@ const StyledWrapper = styled.div`
   }
 
   .terminal-loader {
-    border: 0.1em solid #1a0090;
-    background-color: #2a41a37d;
-    color: #0077ff;
+    border: 0.1em solid #rgb(95, 69, 215);
+    background-color: #d3d3d3f8;
+    color: #13c755;
     font-family: "Courier New", Courier, monospace;
     font-size: 1em;
     padding: 1.5em 1em;
@@ -62,7 +62,7 @@ const StyledWrapper = styled.div`
     left: 0;
     right: 0;
     height: 1.5em;
-    background-color: #1b2596;
+    background-color: grey;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     padding: 0 0.4em;
@@ -91,7 +91,7 @@ const StyledWrapper = styled.div`
   }
 
   .control.maximize {
-    background-color: #0b0;
+    background-color: #00ff5e77;
   }
 
   .terminal-title {
@@ -104,7 +104,7 @@ const StyledWrapper = styled.div`
     display: inline-block;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 0.2em solid blue; /* Cursor */
+    border-right: 0.2em solid #13c755; /* Cursor */
     animation:
       typeAndDelete 4s steps(11) infinite,
       blinkCursor 0.5s step-end infinite alternate;

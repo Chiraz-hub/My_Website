@@ -19,19 +19,76 @@
    justify-content: center;
    align-items: center;
 }
-ul{
+  .top-page{
+    height: 50%;
+    width: 100%;
     display: flex;
-    gap: 15px;
-    border: 3px solid rgba(2, 21, 81, 0.679) ;
-    background-color: rgba(0, 170, 255, 0) ;
-    border-radius: 15px;
-    width: fit-content;
-    padding: 5px;
+    justify-content: space-between;
+     background-color: black;
 }
- li{
-    list-style-type: none;
-    font-size: 1.2rem;
- }
+   .logo{
+    height: 100%;
+    width: 40%;
+    margin: 20px;
+    display: flex;
+    align-items: center;;
+   }
+    .big-circle{
+        height: 80px;
+        width: 80px;
+        border-radius:  50%;
+        background-color: rgb(22, 208, 190);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+      .middle-circle{
+        height: 70%;
+        width: 70%;
+        border-radius: 50%;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+       .small-circle{
+        height: 70%;
+        width: 70%;
+        border-radius: 50%;
+        background-color:white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+        .min-circle{
+        height: 50%;
+        width: 50%; 
+        border-radius: 50%;
+        background-color: black;
+        }
+         ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+         }
+         li{
+            font-size: 1.2rem;
+            color: white;
+            padding: 10px 50px 10px ;
+         }
+          .hire{
+            background-color: rgb(22, 208, 190);
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 2px;
+            cursor: pointer;
+            font-size: 1.2rem;
+          }
  .abt-btn{
     background: none;
     padding: 2px;
