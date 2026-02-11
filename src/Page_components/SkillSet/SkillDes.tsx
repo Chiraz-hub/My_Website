@@ -3,10 +3,10 @@
 function Skill() {
     return (
         <div className = 'container-skill'>
-            <div className = 'des-skill'>
+            <div className = 'description-cont-skill'>
                 <div className = 'desc-text'>
-                <h1 className = 'title-skill'>SkillSet Description</h1>
                 <p className = 'desc-skill'>
+                     <h1 className = 'title-skill'>SkillSet Description</h1>
                     software development, networking, and cybersecurity fundamentals, with a strong foundation in algorithms, system-level concepts, 
                     and web technologies. I work with both theoretical and practical tools, and I continuously expand my skills 
                     through hands-on projects, problem-solving, and self-directed learning.</p>
@@ -30,8 +30,10 @@ function Skill() {
                         </div>
                     </div>
             </div>
-            <div className = 'pic'>
-                <Loader />
+            <div className = 'pic-container'>
+                <div className='pic'>
+                    <Loader />
+                    </div>
             </div>
         </div>
     )
