@@ -1,5 +1,15 @@
-
+   .great{
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+   }
 .intro {
+   height: 85%;
+   width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,23 +25,29 @@
     background: none;
   }
   nav {  
+   height: 100%;
+   width: 60%;
    display: flex;
    justify-content: center;
    align-items: center;
 }
   .top-page{
-    height: 50%;
+    height: 15%;
     width: 100%;
     display: flex;
     justify-content: space-between;
      background-color: black;
 }
-   .logo{
-    height: 100%;
+   .logo-gre{
+    height: 60%;
     width: 40%;
     margin: 20px;
     display: flex;
-    align-items: center;;
+    align-items: center;
+   }
+   .name-gre{
+      margin: 0px 0px 0px 5px;
+      padding:  0px 0px 0px 5px;
    }
     .big-circle{
         height: 80px;
@@ -67,29 +83,26 @@
         background-color: black;
         }
          ul{
+            height: 100%;
+            width: 100%;
             list-style: none;
             display: flex;
             justify-content: space-around;
             align-items: center;
-            height: 100%;
             margin: 0;
             padding: 0;
          }
          li{
             font-size: 1.2rem;
             color: white;
-            padding: 10px 50px 10px ;
+            padding: 0px;
          }
           .hire{
             background-color: rgb(22, 208, 190);
             color: white;
             border: none;
-            padding: 10px 25px;
-            border-radius: 2px;
+            padding: 10px;
+            border-radius: 5px;
             cursor: pointer;
             font-size: 1.2rem;
           }
- .abt-btn{
-    background: none;
-    padding: 2px;
- }

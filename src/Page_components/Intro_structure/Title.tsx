@@ -3,7 +3,7 @@ function Greating(){
     return (
       <div className = 'great'>
            <div className="top-page">
-            <div className="logo">
+            <div className="logo-gre">
                 <div className="big-circle">
                     <div className="middle-circle">
                         <div className="small-circle">
@@ -11,14 +11,15 @@ function Greating(){
                         </div>
                     </div>
                 </div>
-                <h2>BOUCENNA CHIRAZ</h2>
+                <h2 className = "name-gre">BOUCENNA CHIRAZ</h2>
             </div>
             <nav>
                 <ul>
-                    <li><a>HOME</a></li>
-                    <li><a>ABOUT</a></li>
-                    <li><a>SKILLS</a></li>
-                    <li><a><button className="hire">HIRE ME</button></a></li>
+                    <li><button className= 'abt-btn'>HOME</button></li>
+                    <li><button className = 'abt-btn'>ABOUT</button></li>
+                    <li><button className = 'abt-btn'>ACTIVITY</button></li>
+                    <li><button className = 'abt-btn'>SKILLS</button></li>
+                    <li><button className="hire">HIRE ME</button></li>
                 </ul>
             </nav>
         </div>
