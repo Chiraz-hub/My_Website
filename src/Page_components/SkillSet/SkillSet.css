@@ -2,33 +2,75 @@
    width: 100%;
    height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+.desc-text{
+   height: 90%;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
  .des-skill{
+   width: 50%;
+   height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    width: 70%;
-    margin: 0px 0px 10px 10px;
+    align-items:center;
+    margin: 0px;
  }
  .pic{
-    width: 30%;
+    width: 50%;
+    height: 100%;
     display: flex;
-    justify-content: center;
     margin: 0px 0px 0px 0px;
  }
  .title-skill{
-   width: 60%;
+   height: 10%;
+   width: 100%;
+   color:  rgb(22, 208, 190);
     font-size: 3rem;
     text-align: center;
     margin: 0px;
     padding: 0px 0px 0px 5px;
  }
   .desc-skill{
-   width: 60%;
    text-align: center;
     font-size: 1.3rem;
     line-height: 38px;
     padding: 0px 0px 0px 10px;
   }
+   .skill-icon{
+      height: 45%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+   }
+   .skill-security{
+      height: 30%;
+      width: 90%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+   }
+   .skill-tag{
+      color:rgb(22, 208, 190);
+      text-align: center;
+      width: 20%;
+      height: 35%;
+      margin:0;
+      padding: 0px;
+      border-radius: 20px;
+      border: 2px solid black;
+        backdrop-filter: blur(10px);
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.15);
+      box-shadow: 0 0 15px rgba(255,255,255,0.05);
+      transition: all 0.3s ease;
+   }
+   .skill-tag:hover{
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    }
