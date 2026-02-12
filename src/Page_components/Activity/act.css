@@ -4,16 +4,23 @@
     margin: 0;
     padding: 0;
 }
+
 .act-container{
     height: 95%;
     width: 100%;
- display: flex;
+    display: flex;
 }
+
 .card-container{
     width: 100%;
     height: 100%;
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
 }
+
 .activity-title{
     height: 5%;
     width: 100%;
@@ -21,4 +28,52 @@
     font-size: 3rem;
     margin-left: 5px;
     padding-left: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .activity-title{
+        font-size: 2.5rem;
+    }
+    
+    .card-container{
+        gap: 15px;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .hole-act{
+        height: auto;
+        min-height: 100vh;
+    }
+    
+    .act-container{
+        height: auto;
+        padding: 20px 0;
+    }
+    
+    .card-container{
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+    
+    .activity-title{
+        font-size: 2rem;
+        text-align: center;
+        margin: 20px 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .activity-title{
+        font-size: 1.5rem;
+        margin: 15px 0;
+    }
+    
+    .card-container{
+        gap: 15px;
+        padding: 5px;
+    }
 }
