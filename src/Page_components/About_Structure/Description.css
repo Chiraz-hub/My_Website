@@ -1,40 +1,133 @@
 .description-container{
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-}
- .text-description{
-  height: 100%;
-  width: 40%;
-  display : flex;
-  flex-direction:column;
-  justify-content: center;
-  text-align: center;
-  margin-left: 10px;
-  padding-left: 10px;
- }
-  .imageMe{
-    width: 60%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .testimg{
-    font-size: 3rem;
-  }
-  .whoami{
-    color: rgb(22, 208, 190);
-    text-align: center;
-    font-size: 3rem;
+   width: 100%;
+   height: 100%;
    margin: 0;
-  }
-  .textdes{
-    font-size: 1.3rem;
-    line-height: 38px;
-    text-align: center;
-  }
+   padding: 0;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   box-sizing: border-box;
+}
+
+.text-description{
+   height: 100%;
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   margin-left: 10px;
+   padding-left: 10px;
+}
+
+.imageMe{
+   width: 60%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.testimg{
+   font-size: 3rem;
+}
+
+.whoami{
+   color: rgb(22, 208, 190);
+   text-align: center;
+   font-size: 3rem;
+   margin: 0;
+}
+
+.textdes{
+   font-size: 1.3rem;
+   line-height: 38px;
+   text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+   .whoami{
+      font-size: 2.5rem;
+   }
+   
+   .textdes{
+      font-size: 1.1rem;
+      line-height: 32px;
+   }
+   
+   .testimg{
+      font-size: 2.5rem;
+   }
+   
+   .text-description{
+      width: 45%;
+   }
+   
+   .imageMe{
+      width: 55%;
+   }
+}
+
+@media screen and (max-width: 767px) {
+   .description-container{
+      flex-direction: column;
+      padding: 40px 20px;
+      min-height: 100vh;
+   }
+   
+   .text-description{
+      width: 100%;
+      height: auto;
+      margin: 0;
+      padding: 20px 0;
+      order: 2;
+   }
+   
+   .imageMe{
+      width: 100%;
+      height: auto;
+      min-height: 300px;
+      order: 1;
+      margin-bottom: 30px;
+   }
+   
+   .whoami{
+      font-size: 2rem;
+      margin-bottom: 20px;
+   }
+   
+   .textdes{
+      font-size: 1rem;
+      line-height: 28px;
+      padding: 0 10px;
+   }
+   
+   .testimg{
+      font-size: 2rem;
+   }
+}
+
+@media screen and (max-width: 480px) {
+   .description-container{
+      padding: 30px 15px;
+   }
+   
+   .whoami{
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+   }
+   
+   .textdes{
+      font-size: 0.9rem;
+      line-height: 24px;
+   }
+   
+   .imageMe{
+      min-height: 200px;
+      margin-bottom: 20px;
+   }
+   
+   .testimg{
+      font-size: 1.5rem;
+   }
+}
