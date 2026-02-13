@@ -37,30 +37,30 @@
    margin-top: 20px;
 }
 
-nav {  
-   height: 100%;
-   width: 60%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+nav{
+  flex:1;
+  display:flex;
+  justify-content:flex-end;
 }
+
 
 .top-page{
-   height: 15%;
-   width: 100%;
-   display: flex;
-   justify-content: space-between;
-   background-color: black;
-   min-height: 80px;
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:black;
+  padding:10px 40px;
+  flex-wrap:wrap;
 }
 
+
 .logo-gre{
-   height: 60%;
-   width: 40%;
-   margin: 20px;
-   display: flex;
-   align-items: center;
+  display:flex;
+  align-items:center;
+  gap:10px;
 }
+
 
 .name-gre{
    margin: 0px 0px 0px 5px;
@@ -70,8 +70,8 @@ nav {
 }
 
 .big-circle{
-   height: 80px;
-   width: 80px;
+  width:clamp(40px,6vw,80px);
+  height:clamp(40px,6vw,80px);
    border-radius: 50%;
    background-color: rgb(22, 208, 190);
    display: flex;
@@ -108,15 +108,11 @@ nav {
 }
 
 ul{
-   height: 100%;
-   width: 100%;
-   list-style: none;
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   margin: 0;
-   padding: 0;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:12px;
 }
+
 
 li{
    font-size: 1.2rem;
