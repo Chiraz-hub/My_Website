@@ -45,13 +45,14 @@
 
 @media screen and (max-width: 768px) {
   .cards-struct {
-    flex: 1 1 100%;
-    max-width: 100%;
-    width: 100%;
+    flex: 0 0 280px;
+    min-width: 280px;
+    max-width: 280px;
+    scroll-snap-align: center;
   }
   
   .logo-cards {
-    height: 200px;
+    height: 180px;
     margin-bottom: 15px;
   }
   
@@ -66,13 +67,19 @@
 }
 
 @media screen and (max-width: 480px) {
+  .cards-struct {
+    flex: 0 0 260px;
+    min-width: 260px;
+    max-width: 260px;
+  }
+  
   .logo-cards {
-    height: 180px;
+    height: 160px;
     margin-bottom: 10px;
   }
   
   .cards-description {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     line-height: 22px;
   }
   

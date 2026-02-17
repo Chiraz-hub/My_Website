@@ -103,6 +103,11 @@
 }
 
 @media screen and (max-width: 1024px) {
+   .container-skill{
+      gap: 30px;
+      padding: 50px 30px;
+   }
+   
    .title-skill{
       font-size: 2.5rem;
    }
@@ -114,8 +119,8 @@
    }
    
    .skill-tag{
-      font-size: 0.9rem;
-      padding: 6px;
+      font-size: 0.95rem;
+      padding: 7px 14px;
    }
 }
 
@@ -124,7 +129,8 @@
       flex-direction: column;
       height: auto;
       min-height: 100vh;
-      padding: 40px 20px;
+      padding: 30px 20px;
+      gap: 30px;
    }
    
    .description-cont-skill{
@@ -136,36 +142,36 @@
    .pic-container{
       width: 100%;
       height: auto;
-      min-height: 300px;
+      min-height: 250px;
       order: 1;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
    }
    
    .pic{
       height: 100%;
-      min-height: 250px;
+      min-height: 200px;
    }
    
    .desc-text{
       height: auto;
-      padding: 20px 0;
+      padding: 15px 0;
    }
    
    .title-skill{
       font-size: 2rem;
-      margin-bottom: 20px;
+      margin-bottom: 15px;
    }
    
    .desc-skill{
       width: 90%;
       font-size: 1rem;
-      line-height: 28px;
+      line-height: 26px;
    }
    
    .skill-icon{
       height: auto;
-      gap: 15px;
-      margin-top: 30px;
+      gap: 12px;
+      margin-top: 20px;
    }
    
    .skill-security{
@@ -178,37 +184,42 @@
    }
    
    .skill-tag{
-      width: calc(45% - 5px);
+      width: auto;
+      min-width: calc(45% - 5px);
       height: auto;
-      padding: 10px 8px;
-      font-size: 0.85rem;
-      min-height: 35px;
+      padding: 10px 12px;
+      font-size: 0.9rem;
+      min-height: 38px;
    }
 }
 
 @media screen and (max-width: 480px) {
    .container-skill{
-      padding: 30px 15px;
+      padding: 25px 15px;
+   }
+   
+   .pic-container{
+      min-height: 200px;
+   }
+   
+   .pic{
+      min-height: 180px;
    }
    
    .title-skill{
-      font-size: 1.5rem;
+      font-size: 1.6rem;
    }
    
    .desc-skill{
       width: 95%;
-      font-size: 0.9rem;
+      font-size: 0.95rem;
       line-height: 24px;
    }
    
-   .pic{
-      min-height: 200px;
-   }
-   
    .skill-tag{
-      font-size: 0.75rem;
-      padding: 8px 6px;
-      min-height: 30px;
+      font-size: 0.8rem;
+      padding: 9px 10px;
+      min-height: 35px;
    }
    
    .skill-icon{

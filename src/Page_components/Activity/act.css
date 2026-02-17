@@ -3,12 +3,18 @@
     width: 100%;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .act-container{
-    height: 95%;
+    height: auto;
     width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
 }
 
 .card-container{
@@ -16,6 +22,7 @@
   display:flex;
   flex-wrap:wrap;
   justify-content:center;
+  align-items: center;
   gap:25px;
   padding:40px;
 }
@@ -24,18 +31,19 @@
 .activity-title{
     color: rgb(22, 208, 190);
   text-align:center;
-  margin-top:60px;
+  margin: 40px 0 20px 0;
   font-size:clamp(2rem,5vw,3rem);
 }
 
 @media screen and (max-width: 1024px) {
     .activity-title{
         font-size: 2.5rem;
+        margin: 30px 0 15px 0;
     }
     
     .card-container{
-        gap: 15px;
-        padding: 15px;
+        gap: 20px;
+        padding: 30px 20px;
     }
 }
 
@@ -47,31 +55,53 @@
     
     .act-container{
         height: auto;
-        padding: 20px 0;
+        padding: 0;
+        overflow-x: auto;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
     }
     
     .card-container{
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: nowrap;
         gap: 20px;
-        padding: 10px;
+        padding: 20px;
+        width: max-content;
+        min-width: 100%;
+        justify-content: flex-start;
     }
     
     .activity-title{
         font-size: 2rem;
         text-align: center;
-        margin: 20px 0;
-        padding: 0;
+        margin: 25px 0 15px 0;
+        padding: 0 20px;
+    }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+@media screen and (max-width: 767px) {
+    .act-container::-webkit-scrollbar {
+        display: none;
+    }
+    
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .act-container {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
     }
 }
 
 @media screen and (max-width: 480px) {
     .activity-title{
-        font-size: 1.5rem;
-        margin: 15px 0;
+        font-size: 1.6rem;
+        margin: 20px 0 10px 0;
     }
     
     .card-container{
         gap: 15px;
-        padding: 5px;
+        padding: 15px;
     }
 }

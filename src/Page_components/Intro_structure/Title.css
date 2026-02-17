@@ -167,26 +167,29 @@ li{
 }
 
 @media screen and (max-width: 768px) {
-  .gre-h1 {
-    font-size: 2.5rem;
-  }
-  
-  .small-des-gre {
-    font-size: 1.1rem;
-    padding: 0 15px;
+  .great {
+    justify-content: flex-start;
+    height: 100%;
   }
   
   .top-page {
-    padding: 10px 20px;
-    gap: 15px;
+    padding: 8px 15px;
+    gap: 8px;
+    min-height: auto;
+    flex-shrink: 0;
   }
   
   .logo-gre {
-    gap: 8px;
+    gap: 6px;
   }
   
   .name-gre {
-    font-size: 1rem;
+    font-size: 0.95rem;
+  }
+  
+  .big-circle {
+    width: clamp(35px, 5vw, 50px);
+    height: clamp(35px, 5vw, 50px);
   }
   
   nav {
@@ -195,56 +198,120 @@ li{
   }
   
   ul {
-    gap: 10px;
+    gap: 6px;
+    flex-wrap: wrap;
+    padding: 4px 0;
+    margin: 0;
+  }
+  
+  li {
+    list-style: none;
   }
   
   li, .abt-btn, .hire {
-    font-size: 1rem;
+    font-size: 0.85rem;
+  }
+  
+  .abt-btn {
+    padding: 4px 8px;
+  }
+  
+  .hire {
+    padding: 6px 10px;
   }
   
   .intro {
-    padding: 0 15px;
+    height: auto;
+    padding: 15px;
+    justify-content: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .gre-h1 {
+    font-size: 2rem;
+    margin-bottom: 12px;
+  }
+  
+  .small-des-gre {
+    font-size: 0.95rem;
+    padding: 0 10px;
+    margin-bottom: 12px;
+  }
+  
+  .ScrollBtn {
+    margin-top: 8px;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .gre-h1 {
-    font-size: 2rem;
-  }
-  
-  .small-des-gre {
-    font-size: 1rem;
-    padding: 0 10px;
+  .great {
+    justify-content: flex-start;
+    height: 100%;
   }
   
   .top-page {
-    padding: 8px 15px;
-    gap: 10px;
+    padding: 6px 10px;
+    gap: 6px;
+    min-height: auto;
+    flex-shrink: 0;
+  }
+  
+  .logo-gre {
+    gap: 5px;
   }
   
   .name-gre {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+  }
+  
+  .big-circle {
+    width: clamp(30px, 4vw, 40px);
+    height: clamp(30px, 4vw, 40px);
   }
   
   ul {
-    gap: 8px;
+    gap: 5px;
+    padding: 3px 0;
+    margin: 0;
   }
   
   li, .abt-btn {
-    font-size: 0.9rem;
+    font-size: 0.75rem;
     padding: 0;
   }
   
+  .abt-btn {
+    padding: 3px 6px;
+  }
+  
   .hire {
-    font-size: 0.9rem;
-    padding: 8px 12px;
+    font-size: 0.75rem;
+    padding: 5px 8px;
   }
   
   .intro {
-    padding: 0 10px;
+    height: auto;
+    padding: 12px 10px;
+    flex: 1;
+  }
+  
+  .gre-h1 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+  
+  .small-des-gre {
+    font-size: 0.85rem;
+    padding: 0 8px;
+    margin-bottom: 10px;
   }
   
   .ScrollBtn {
-    margin-top: 15px;
+    margin-top: 8px;
+    font-size: 0.85rem;
+    padding: 8px 12px;
   }
 }
