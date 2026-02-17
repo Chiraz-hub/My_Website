@@ -45,4 +45,79 @@
    text-align: center;
 }
 
+/* Responsive Breakpoints */
+@media screen and (max-width: 1024px) {
+  .description-container {
+    gap: 30px;
+    padding: 50px 30px;
+  }
+  
+  .whoami {
+    font-size: 2.5rem;
+  }
+  
+  .textdes {
+    font-size: 1.1rem;
+    line-height: 32px;
+  }
+  
+  .testimg {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .description-container {
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 20px;
+  }
+  
+  .text-description {
+    flex: 1 1 auto;
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+  .imageMe {
+    flex: 1 1 auto;
+    width: 100%;
+    order: -1;
+  }
+  
+  .whoami {
+    font-size: 2rem;
+  }
+  
+  .textdes {
+    font-size: 1rem;
+    line-height: 28px;
+  }
+  
+  .testimg {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .description-container {
+    gap: 20px;
+    padding: 30px 15px;
+  }
+  
+  .whoami {
+    font-size: 1.5rem;
+  }
+  
+  .textdes {
+    font-size: 0.9rem;
+    line-height: 24px;
+  }
+  
+  .testimg {
+    font-size: 1.5rem;
+  }
+}
+
 

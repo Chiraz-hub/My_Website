@@ -24,4 +24,60 @@
  .desc-cards{
     width: 85%;
  }
+
+/* Responsive Breakpoints */
+@media screen and (max-width: 1024px) {
+  .cards-struct {
+    flex: 1 1 240px;
+    max-width: 300px;
+  }
+  
+  .logo-cards {
+    height: 220px;
+    margin-bottom: 15px;
+  }
+  
+  .cards-description {
+    font-size: 1.1rem;
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cards-struct {
+    flex: 1 1 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  .logo-cards {
+    height: 200px;
+    margin-bottom: 15px;
+  }
+  
+  .cards-description {
+    font-size: 1rem;
+    line-height: 24px;
+  }
+  
+  .desc-cards {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo-cards {
+    height: 180px;
+    margin-bottom: 10px;
+  }
+  
+  .cards-description {
+    font-size: 0.9rem;
+    line-height: 22px;
+  }
+  
+  .desc-cards {
+    width: 95%;
+  }
+}
  

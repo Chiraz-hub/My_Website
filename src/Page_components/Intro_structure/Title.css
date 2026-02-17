@@ -142,3 +142,109 @@ li{
 .soft-sec{
    color: rgb(22, 208, 190);
 }
+
+/* Responsive Breakpoints */
+@media screen and (max-width: 1024px) {
+  .gre-h1 {
+    font-size: 3.5rem;
+  }
+  
+  .small-des-gre {
+    font-size: 1.3rem;
+  }
+  
+  .top-page {
+    padding: 10px 30px;
+  }
+  
+  .name-gre {
+    font-size: 1.1rem;
+  }
+  
+  li, .abt-btn, .hire {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gre-h1 {
+    font-size: 2.5rem;
+  }
+  
+  .small-des-gre {
+    font-size: 1.1rem;
+    padding: 0 15px;
+  }
+  
+  .top-page {
+    padding: 10px 20px;
+    gap: 15px;
+  }
+  
+  .logo-gre {
+    gap: 8px;
+  }
+  
+  .name-gre {
+    font-size: 1rem;
+  }
+  
+  nav {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  ul {
+    gap: 10px;
+  }
+  
+  li, .abt-btn, .hire {
+    font-size: 1rem;
+  }
+  
+  .intro {
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .gre-h1 {
+    font-size: 2rem;
+  }
+  
+  .small-des-gre {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+  
+  .top-page {
+    padding: 8px 15px;
+    gap: 10px;
+  }
+  
+  .name-gre {
+    font-size: 0.9rem;
+  }
+  
+  ul {
+    gap: 8px;
+  }
+  
+  li, .abt-btn {
+    font-size: 0.9rem;
+    padding: 0;
+  }
+  
+  .hire {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+  
+  .intro {
+    padding: 0 10px;
+  }
+  
+  .ScrollBtn {
+    margin-top: 15px;
+  }
+}

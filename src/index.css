@@ -62,3 +62,41 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+/* Responsive Breakpoints */
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 2.8em;
+  }
+  
+  button {
+    padding: 0.5em 1em;
+    font-size: 0.95em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.2em;
+  }
+  
+  body {
+    min-width: 280px;
+  }
+  
+  button {
+    padding: 0.5em 0.9em;
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.8em;
+  }
+  
+  button {
+    padding: 0.4em 0.8em;
+    font-size: 0.85em;
+  }
+}
