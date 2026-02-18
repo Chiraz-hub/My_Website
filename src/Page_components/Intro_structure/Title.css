@@ -142,3 +142,138 @@ li{
 .soft-sec{
    color: rgb(22, 208, 190);
 }
+
+/* Responsive Design - Tablets */
+@media screen and (max-width: 1024px) {
+   .gre-h1 {
+      font-size: 3rem;
+   }
+   
+   .small-des-gre {
+      font-size: 1.3rem;
+   }
+   
+   .name-gre {
+      font-size: 1rem;
+   }
+   
+   li, .abt-btn, .hire {
+      font-size: 1rem;
+   }
+   
+   .top-page {
+      padding: 10px 30px;
+   }
+}
+
+/* Responsive Design - Mobile */
+@media screen and (max-width: 767px) {
+   .great {
+      height: auto;
+      min-height: 100vh;
+   }
+   
+   .intro {
+      height: auto;
+      padding: 40px 20px;
+      min-height: calc(100vh - 120px);
+   }
+   
+   .gre-h1 {
+      font-size: 2.5rem;
+      line-height: 1.2;
+   }
+   
+   .small-des-gre {
+      font-size: 1.2rem;
+      padding: 0 10px;
+   }
+   
+   .top-page {
+      padding: 15px 20px;
+      flex-direction: column;
+      gap: 15px;
+   }
+   
+   .logo-gre {
+      width: 100%;
+      justify-content: center;
+   }
+   
+   nav {
+      width: 100%;
+      justify-content: center;
+   }
+   
+   ul {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      gap: 8px;
+   }
+   
+   li {
+      font-size: 0.95rem;
+   }
+   
+   .abt-btn {
+      font-size: 0.95rem;
+      padding: 8px 12px;
+   }
+   
+   .hire {
+      font-size: 0.95rem;
+      padding: 8px 12px;
+   }
+   
+   .name-gre {
+      font-size: 0.95rem;
+   }
+   
+   .ScrollBtn {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+   }
+}
+
+/* Responsive Design - Small Mobile */
+@media screen and (max-width: 480px) {
+   .gre-h1 {
+      font-size: 1.8rem;
+   }
+   
+   .small-des-gre {
+      font-size: 1rem;
+   }
+   
+   .top-page {
+      padding: 10px 15px;
+   }
+   
+   .name-gre {
+      font-size: 0.85rem;
+   }
+   
+   ul {
+      gap: 6px;
+   }
+   
+   li {
+      font-size: 0.85rem;
+   }
+   
+   .abt-btn {
+      font-size: 0.85rem;
+      padding: 6px 10px;
+   }
+   
+   .hire {
+      font-size: 0.85rem;
+      padding: 6px 10px;
+   }
+   
+   .big-circle {
+      width: 35px;
+      height: 35px;
+   }
+}

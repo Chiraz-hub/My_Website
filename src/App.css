@@ -57,4 +57,31 @@ main {
   color: #888;
 }
 
+/* Responsive Design - Tablets */
+@media screen and (max-width: 1024px) {
+  .section {
+    height: auto;
+    min-height: 100vh;
+  }
+}
+
+/* Responsive Design - Mobile */
+@media screen and (max-width: 767px) {
+  .section {
+    height: auto;
+    min-height: 100vh;
+    padding: 20px 0;
+  }
+  
+  main {
+    scroll-snap-type: none;
+  }
+}
+
+/* Responsive Design - Small Mobile */
+@media screen and (max-width: 480px) {
+  .section {
+    padding: 15px 0;
+  }
+}
 

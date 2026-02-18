@@ -62,3 +62,46 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+/* Responsive Design - Tablets */
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 2.8em;
+  }
+}
+
+/* Responsive Design - Mobile */
+@media screen and (max-width: 767px) {
+  :root {
+    font-size: 14px;
+  }
+  
+  h1 {
+    font-size: 2.2em;
+  }
+  
+  body {
+    min-width: 280px;
+  }
+  
+  button {
+    padding: 0.5em 1em;
+    font-size: 0.95em;
+  }
+}
+
+/* Responsive Design - Small Mobile */
+@media screen and (max-width: 480px) {
+  :root {
+    font-size: 13px;
+  }
+  
+  h1 {
+    font-size: 1.8em;
+  }
+  
+  button {
+    padding: 0.4em 0.8em;
+    font-size: 0.9em;
+  }
+}

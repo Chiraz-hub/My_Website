@@ -45,4 +45,82 @@
    text-align: center;
 }
 
+/* Responsive Design - Tablets */
+@media screen and (max-width: 1024px) {
+   .whoami {
+      font-size: 2.5rem;
+   }
+   
+   .textdes {
+      font-size: 1.1rem;
+      line-height: 32px;
+   }
+   
+   .description-container {
+      padding: 40px 30px;
+      gap: 30px;
+   }
+}
+
+/* Responsive Design - Mobile */
+@media screen and (max-width: 767px) {
+   .description-container {
+      flex-direction: column;
+      padding: 40px 20px;
+      gap: 30px;
+   }
+   
+   .text-description {
+      width: 100%;
+      order: 2;
+      margin: 0;
+      padding: 0;
+   }
+   
+   .imageMe {
+      width: 100%;
+      order: 1;
+      min-height: 250px;
+   }
+   
+   .whoami {
+      font-size: 2rem;
+      margin-bottom: 20px;
+   }
+   
+   .textdes {
+      font-size: 1rem;
+      line-height: 28px;
+      width: 100%;
+   }
+   
+   .testimg {
+      font-size: 2.5rem;
+   }
+}
+
+/* Responsive Design - Small Mobile */
+@media screen and (max-width: 480px) {
+   .description-container {
+      padding: 30px 15px;
+   }
+   
+   .whoami {
+      font-size: 1.5rem;
+   }
+   
+   .textdes {
+      font-size: 0.9rem;
+      line-height: 24px;
+   }
+   
+   .testimg {
+      font-size: 2rem;
+   }
+   
+   .imageMe {
+      min-height: 200px;
+   }
+}
+
 
