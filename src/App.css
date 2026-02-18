@@ -70,7 +70,8 @@ main {
   .section {
     height: auto;
     min-height: 100vh;
-    padding: 20px 0;
+    padding: 0;
+    margin: 0;
   }
   
   main {
@@ -81,7 +82,8 @@ main {
 /* Responsive Design - Small Mobile */
 @media screen and (max-width: 480px) {
   .section {
-    padding: 15px 0;
+    padding: 0;
+    margin: 0;
   }
 }
 

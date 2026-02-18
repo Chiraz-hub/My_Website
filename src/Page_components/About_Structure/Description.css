@@ -65,8 +65,11 @@
 /* Responsive Design - Mobile */
 @media screen and (max-width: 767px) {
    .description-container {
+      height: 100%;
+      width: 100%;
       flex-direction: column;
-      padding: 40px 20px;
+      padding:0;
+      margin: 0;
       gap: 30px;
    }
    
