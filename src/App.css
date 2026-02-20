@@ -6,8 +6,6 @@ html {
   width: 100%;
   scroll-snap-align: start;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 main {

@@ -25,6 +25,7 @@
    font-size: 4rem;
    text-align: center;
    margin: 0;
+   padding: 0;
 }
 
 .small-des-gre{
@@ -46,6 +47,7 @@ nav{
 
 
 .top-page{
+  height: 15%;
   width:100%;
   display:flex;
   justify-content:space-between;
@@ -120,6 +122,7 @@ li{
    font-size: 1.2rem;
    color: white;
    padding: 0px;
+   list-style: none;
 }
 
 .abt-btn{
@@ -144,8 +147,11 @@ li{
    color: rgb(22, 208, 190);
 }
 
-/* Responsive Design - Tablets need to fix the vertical of the tablet*/
+/* Responsive Design - Tablets (horizontal)*/
 @media screen and (max-width: 1024px) {
+  .intro{
+    height: 500px;
+  }
    .gre-h1 {
       font-size: 3rem;
    }
@@ -164,11 +170,43 @@ li{
    }
    
    .top-page {
+      padding: 10px;
+      margin: 0;
+   }
+}
+/*Table View Vertical */
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .intro{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .gre-h1 {
+      font-size: 3rem;
+   }
+   
+   .small-des-gre {
+      font-size: 1.3rem;
+   }
+   
+   .name-gre {
+      font-size: 1rem;
+   }
+   
+   li, .abt-btn, .hire {
+      font-size: 1rem;
+      list-style: none;
+   }
+   
+   .top-page {
+    height: 20%;
+    width: 100%;
       padding:0;
       margin: 0;
    }
 }
-
 /* Responsive Design - Mobile */
 @media screen and (max-width: 767px) {
    .great {
