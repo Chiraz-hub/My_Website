@@ -8,7 +8,7 @@ function App() {
   return (
     <> 
     <main>
-    <section className = 'section'><Greating /></section>
+    <section className = 'section-Greating'><Greating /></section>
     <section className= 'section'><Desc /></section>
     <section className = 'section'><Activity /></section>
     <section className = 'section'><Skill /></section>

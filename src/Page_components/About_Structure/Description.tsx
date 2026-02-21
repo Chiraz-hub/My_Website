@@ -1,4 +1,5 @@
  import './Description.css'
+ import Loader from './descriptionLogo'
 function Desc(){
     return(
         <div className="description-container">
@@ -12,7 +13,7 @@ function Desc(){
      </p>
      </div>
       <div className ='imageMe'>
-         <p className ='testimg'>HERE ME</p>
+        <Loader />
       </div>
      </div>
     );

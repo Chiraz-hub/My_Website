@@ -1,9 +1,10 @@
 html {
   scroll-behavior: smooth;
 }
-.section{
+section{
   height: 100vh;
   width: 100%;
+  overflow-x: hidden;
   scroll-snap-align: start;
   display: flex;
 }
@@ -32,56 +33,11 @@ main {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
 .card {
   padding: 2em;
 }
 
 .read-the-docs {
   color: #888;
-}
-
-/* Responsive Design - Tablets */
-@media screen and (max-width: 1024px) {
-  .section {
-    height: auto;
-    min-height: 100vh;
-  }
-}
-
-/* Responsive Design - Mobile */
-@media screen and (max-width: 767px) {
-  .section {
-    height: auto;
-    min-height: 100vh;
-    padding: 0;
-    margin: 0;
-  }
-  
-  main {
-    scroll-snap-type: none;
-  }
-}
-
-/* Responsive Design - Small Mobile */
-@media screen and (max-width: 480px) {
-  .section {
-    padding: 0;
-    margin: 0;
-  }
 }
 

@@ -19,7 +19,6 @@ function Greating(){
                     <li><button className = 'abt-btn'>ABOUT</button></li>
                     <li><button className = 'abt-btn'>ACTIVITY</button></li>
                     <li><button className = 'abt-btn'>SKILLS</button></li>
-                    <li><button className="hire">HIRE ME</button></li>
                 </ul>
             </nav>
         </div>
