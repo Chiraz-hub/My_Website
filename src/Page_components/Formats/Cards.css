@@ -1,6 +1,6 @@
  .cards-struct{
-  flex:1 1 260px;
-  max-width:320px;
+   width: 100%;
+   height: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,9 +14,8 @@
   margin-bottom: 20px;
 }
  .cards-description{
-    padding-left: px;
-     font-size: 1.2rem;
-     line-height: 28px;
+     font-size: 1rem;
+     line-height: 25px;
  }
  .cards-title{
        color:rgb(22, 208, 190);
@@ -25,64 +24,3 @@
     width: 85%;
  }
 
-/* Responsive Design - Tablets */
-@media screen and (max-width: 1024px) {
-   .cards-struct {
-      max-width: 280px;
-   }
-   
-   .logo-cards {
-      height: 200px;
-   }
-   
-   .cards-description {
-      font-size: 1.1rem;
-      line-height: 26px;
-   }
-}
-
-/* Responsive Design - Mobile */
-@media screen and (max-width: 767px) {
-   .cards-struct {
-      flex: 1 1 100%;
-      max-width: 100%;
-      width: 100%;
-      padding: 20px;
-   }
-   
-   .logo-cards {
-      height: 180px;
-      margin-bottom: 15px;
-   }
-   
-   .cards-description {
-      font-size: 1rem;
-      line-height: 24px;
-   }
-   
-   .desc-cards {
-      width: 90%;
-   }
-}
-
-/* Responsive Design - Small Mobile */
-@media screen and (max-width: 480px) {
-   .cards-struct {
-      width: 100%;
-      padding: 15px;
-   }
-   
-   .logo-cards {
-      height: 150px;
-   }
-   
-   .cards-description {
-      font-size: 0.9rem;
-      line-height: 22px;
-   }
-   
-   .desc-cards {
-      width: 95%;
-   }
-}
- 

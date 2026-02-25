@@ -3,7 +3,11 @@
 function Desc(){
     return(
         <div className="description-container">
-         <div className ='text-description'>
+       
+      <div className ='imageMe'>
+        <Loader />
+      </div>  
+      <div className ='text-description'>
              <h1 className = 'whoami'>
         WHO AM I ?
      </h1> 
@@ -12,9 +16,6 @@ function Desc(){
         I am passionate about problem-solving and continuous learning, enjoying building clean, efficient solutions and exploring new concepts in programming and data analysis.
      </p>
      </div>
-      <div className ='imageMe'>
-        <Loader />
-      </div>
      </div>
     );
 }
