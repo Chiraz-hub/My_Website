@@ -7,44 +7,18 @@
 
 
 .desc-text{
-   height: 70%;
+   height: 60%;
    width: 100%;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-}
-
-.description-cont-skill{
-   height: 70%;
-   width: 100%;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-around;
-   align-items: center;
-   margin: 0px;
-   padding: 0px;
-}
-
-.pic-container{
-   height: 30%;
-   margin: 0px;
-   padding: 0px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
-.pic{
-   height: 100%;
-   width: 100%;
-   display: flex;
 }
 
 .title-skill{
    color: rgb(22, 208, 190);
    font-size: 2rem;
-   margin: 0px;
+   margin: autopx;
    padding: 0px;
    text-align: center;
 }
@@ -63,14 +37,14 @@
    width: 100%;
    display: flex;
    flex-direction: column;
-   justify-content: flex-start;
+  justify-content: center;
 }
 
 .skill-security{
   display:flex;
-  flex-wrap:wrap;
   gap:10px;
   justify-content:center;
+  margin: auto;
 }
 
 

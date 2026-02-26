@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Loader = ({ size = 180 }) => {
+const Loader = ({ size = 200 }) => {
   return (
     <StyledWrapper size={size}>
       <div className="loop cubes">
@@ -19,9 +19,8 @@ const StyledWrapper = styled.div<{ size: number }>`
   width: ${props => props.size}px;
   height: ${props => props.size}px;
   display: flex;
-  align-items: center;
   justify-content: center;
-
+  align-items: flex-start;
   .cubes {
     transform-style: preserve-3d;
   }
