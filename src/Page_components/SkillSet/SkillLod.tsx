@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
-const Loader = () => {
+const Loader = ({ size = 180 }) => {
   return (
-    <StyledWrapper>
+    <StyledWrapper size={size}>
       <div className="loop cubes">
         <div className="item cubes" />
         <div className="item cubes" />
@@ -15,9 +15,14 @@ const Loader = () => {
   );
 }
 
-const StyledWrapper = styled.div`
-  .cubes {
+const StyledWrapper = styled.div<{ size: number }>`
+  width: ${props => props.size}px;
+  height: ${props => props.size}px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+  .cubes {
     transform-style: preserve-3d;
   }
 
@@ -29,7 +34,7 @@ const StyledWrapper = styled.div`
     to {
       transform: scale3d(0.2, 0.2, 0.2);
     }
-  } 
+  }
 
   .item {
     margin: -1.5625em;
@@ -62,88 +67,12 @@ const StyledWrapper = styled.div`
     transform: rotateY(90deg);
   }
 
-  .item:nth-child(1) {
-    margin-top: 6.25em;
-    color: #15cae6;
-    animation-delay: -1.2s;
-  }
-
-  .item:nth-child(1):before {
-    color: #15cae6;
-  }
-
-  .item:nth-child(1):after {
-    color: #15cae6;
-  }
-
-  .item:nth-child(2) {
-    margin-top: 3.125em;
-    color: #1550e6;
-    animation-delay: -1s;
-  }
-
-  .item:nth-child(2):before {
-    color: #1550e6;
-  }
-
-  .item:nth-child(2):after {
-    color: #1550e6;
-  }
-
-  .item:nth-child(3) {
-    margin-top: 0em;
-    color: #0c25c3;
-    animation-delay: -0.8s;
-  }
-
-  .item:nth-child(3):before {
-    color: #0c25c3;
-  }
-
-  .item:nth-child(3):after {
-    color: #0c25c3;
-  }
-
-  .item:nth-child(4) {
-    margin-top: -3.125em;
-    color: #2d1fe9;
-    animation-delay: -0.6s;
-  }
-
-  .item:nth-child(4):before {
-    color: #2d1fe9;
-  }
-
-  .item:nth-child(4):after {
-    color: #2d1fe9;
-  }
-
-  .item:nth-child(5) {
-    margin-top: -6.25em;
-    color: #ae0cd6;
-    animation-delay: -0.4s;
-  }
-
-  .item:nth-child(5):before {
-    color: #ae0cd6;
-  }
-
-  .item:nth-child(5):after {
-    color: #ae0cd6;
-  }
-
-  .item:nth-child(6) {
-    margin-top: -9.375em;
-    color: #7e0963;
-    animation-delay: -0.2s;
-  }
-
-  .item:nth-child(6):before {
-    color: #7e0963;
-  }
-
-  .item:nth-child(6):after {
-    color: #7e0963;
-  }`;
+  .item:nth-child(1){margin-top:6.25em;color:#15cae6;animation-delay:-1.2s;}
+  .item:nth-child(2){margin-top:3.125em;color:#1550e6;animation-delay:-1s;}
+  .item:nth-child(3){margin-top:0;color:#0c25c3;animation-delay:-.8s;}
+  .item:nth-child(4){margin-top:-3.125em;color:#2d1fe9;animation-delay:-.6s;}
+  .item:nth-child(5){margin-top:-6.25em;color:#ae0cd6;animation-delay:-.4s;}
+  .item:nth-child(6){margin-top:-9.375em;color:#7e0963;animation-delay:-.2s;}
+`;
 
 export default Loader;

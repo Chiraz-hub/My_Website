@@ -3,6 +3,11 @@
 function Skill() {
     return (
         <div className = 'container-skill'>
+            <div className = 'pic-container'>
+                <div className='pic'>
+                    <Loader />
+                    </div>
+            </div>
             <div className = 'description-cont-skill'>
                 <div className = 'desc-text'>
                 <p className = 'desc-skill'>
@@ -30,11 +35,7 @@ function Skill() {
                         </div>
                     </div>
             </div>
-            <div className = 'pic-container'>
-                <div className='pic'>
-                    <Loader />
-                    </div>
-            </div>
+            
         </div>
     )
 };
