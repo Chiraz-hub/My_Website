@@ -5,22 +5,24 @@
    padding: 0;
    display: flex;
    flex-direction: column;
+   justify-content: space-around;
 }
 
 .social-container{
   width:100%;
+  height: 80%;
   display:flex;
-  align-items:center;
-  justify-content:center;
+  flex-direction: column;
+  justify-content: space-around;
   gap:50px;
-  flex-wrap:wrap;
-  padding:60px 40px;
+  padding: 0;
+  margin: 0;
 }
 
 
 .social-icon{
-   height: 100%;
-   flex:1 1 300px;
+   height: 40%;
+   width: 100%;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -28,19 +30,17 @@
 
 .social-text{
    height: 60%;
- flex:1 1 350px;
+   width: 100%;
    margin: 0;
    padding: 0;
    display: flex;
    flex-direction: column;
-   justify-content: space-around;
    align-items: center;
 }
 
 .social-title{
-   height: 10%;
    width: 100%;
-     font-size:clamp(2rem,5vw,3rem);
+     font-size: 2rem;
    margin: 0px;
    padding: 0px;
    text-align: center;
@@ -48,23 +48,21 @@
 }
 
 .social-description{
-   height: 70%;
-   width: 80%;
- font-size:clamp(1rem,2vw,1.3rem);
+   height: 80%;
+   width: 60%;
+ font-size:1rem;
    text-align: center;
    margin: 0;
    padding: 0;
 }
 
 .Thanks{
-   height: 30%;
+   height: 20%;
    width: 100%;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   padding: 20px;
-   box-sizing: border-box;
 }
 
 .thanks-title{
@@ -85,112 +83,3 @@ footer p{
 .blue{
    color: rgb(22, 208, 190);
 }
-
-@media screen and (max-width: 1024px) {
-   .social-title{
-      font-size: 2.5rem;
-   }
-   
-   .social-description{
-      font-size: 1.1rem;
-      width: 90%;
-   }
-   
-   .social-text{
-      width: 35%;
-   }
-   
-   .social-icon{
-      width: 35%;
-   }
-   
-   .thanks-title{
-      font-size: 1.8rem;
-   }
-}
-
-@media screen and (max-width: 767px) {
-   .hole-social-container{
-      height: auto;
-      min-height: 100vh;
-   }
-   
-   .social-container{
-      flex-direction: column;
-      height: auto;
-      padding: 40px 20px;
-      gap: 40px;
-   }
-   
-   .social-text{
-      width: 100%;
-      height: auto;
-      gap: 20px;
-   }
-   
-   .social-title{
-      font-size: 2rem;
-      height: auto;
-   }
-   
-   .social-description{
-      width: 90%;
-      font-size: 1rem;
-      height: auto;
-      line-height: 28px;
-   }
-   
-   .social-icon{
-      width: 100%;
-      height: auto;
-      min-height: 200px;
-   }
-   
-   .Thanks{
-      height: auto;
-      padding: 30px 20px;
-   }
-   
-   .thanks-title{
-      font-size: 1.5rem;
-      margin-bottom: 15px;
-   }
-   
-   footer p{
-      font-size: 0.9rem;
-   }
-}
-
-@media screen and (max-width: 480px) {
-   .social-container{
-      padding: 30px 15px;
-      gap: 30px;
-   }
-   
-   .social-title{
-      font-size: 1.5rem;
-   }
-   
-   .social-description{
-      width: 95%;
-      font-size: 0.9rem;
-      line-height: 24px;
-   }
-   
-   .social-icon{
-      min-height: 150px;
-   }
-   
-   .Thanks{
-      padding: 20px 15px;
-   }
-   
-   .thanks-title{
-      font-size: 1.3rem;
-   }
-   
-   footer p{
-      font-size: 0.8rem;
-   }
-}
-
