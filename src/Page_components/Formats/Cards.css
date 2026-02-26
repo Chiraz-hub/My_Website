@@ -24,3 +24,42 @@
     width: 85%;
  }
 
+/* Tablets (Landscape) / Laptops: 769px to 1024px */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .logo-cards {
+    height: 200px;
+  }
+  .desc-cards {
+    width: 90%;
+  }
+}
+
+/* Tablets (Portrait): 481px to 768px */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .logo-cards {
+    height: 160px;
+    margin-bottom: 10px;
+  }
+  .cards-description {
+    font-size: 0.9rem;
+    line-height: 22px;
+  }
+  .desc-cards {
+    width: 90%;
+  }
+}
+
+/* Mobile: Up to 480px */
+@media screen and (max-width: 480px) {
+  .logo-cards {
+    height: 130px;
+    margin-bottom: 8px;
+  }
+  .cards-description {
+    font-size: 0.85rem;
+    line-height: 20px;
+  }
+  .desc-cards {
+    width: 95%;
+  }
+}

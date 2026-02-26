@@ -83,111 +83,95 @@ footer p{
    color: rgb(22, 208, 190);
 }
 
-@media screen and (max-width: 1024px) {
-   .social-title{
-      font-size: 2.5rem;
-   }
-   
-   .social-description{
-      font-size: 1.1rem;
-      width: 90%;
-   }
-   
-   .social-text{
-      width: 35%;
-   }
-   
-   .social-icon{
-      width: 35%;
-   }
-   
-   .thanks-title{
-      font-size: 1.8rem;
-   }
+/* Tablets (Landscape) / Laptops: 769px to 1024px */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .social-title {
+    font-size: 1.8rem;
+  }
+  .socials-description {
+    width: 75%;
+  }
+  .thanks-title {
+    font-size: 1.8rem;
+  }
 }
 
-@media screen and (max-width: 767px) {
-   .hole-social-container{
-      height: auto;
-      min-height: 100vh;
-   }
-   
-   .social-container{
-      flex-direction: column;
-      height: auto;
-      padding: 40px 20px;
-      gap: 40px;
-   }
-   
-   .social-text{
-      width: 100%;
-      height: auto;
-      gap: 20px;
-   }
-   
-   .social-title{
-      font-size: 2rem;
-      height: auto;
-   }
-   
-   .social-description{
-      width: 90%;
-      font-size: 1rem;
-      height: auto;
-      line-height: 28px;
-   }
-   
-   .social-icon{
-      width: 100%;
-      height: auto;
-      min-height: 200px;
-   }
-   
-   .Thanks{
-      height: auto;
-      padding: 30px 20px;
-   }
-   
-   .thanks-title{
-      font-size: 1.5rem;
-      margin-bottom: 15px;
-   }
-   
-   footer p{
-      font-size: 0.9rem;
-   }
+/* Tablets (Portrait): 481px to 768px */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .hole-soc-container {
+    height: auto;
+  }
+  .socials-container {
+    height: auto;
+    padding: 30px 20px;
+    gap: 30px;
+  }
+  .social-text {
+    height: auto;
+  }
+  .social-title {
+    font-size: 1.6rem;
+    height: auto;
+  }
+  .socials-description {
+    width: 85%;
+    height: auto;
+    font-size: 0.95rem;
+    line-height: 26px;
+  }
+  .social-icon {
+    height: auto;
+    min-height: 180px;
+  }
+  .Thanks {
+    height: auto;
+    padding: 25px 20px;
+  }
+  .thanks-title {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+  }
+  footer p {
+    font-size: 0.95rem;
+  }
 }
 
+/* Mobile: Up to 480px */
 @media screen and (max-width: 480px) {
-   .social-container{
-      padding: 30px 15px;
-      gap: 30px;
-   }
-   
-   .social-title{
-      font-size: 1.5rem;
-   }
-   
-   .social-description{
-      width: 95%;
-      font-size: 0.9rem;
-      line-height: 24px;
-   }
-   
-   .social-icon{
-      min-height: 150px;
-   }
-   
-   .Thanks{
-      padding: 20px 15px;
-   }
-   
-   .thanks-title{
-      font-size: 1.3rem;
-   }
-   
-   footer p{
-      font-size: 0.8rem;
-   }
+  .hole-soc-container {
+    height: auto;
+  }
+  .socials-container {
+    height: auto;
+    padding: 20px 15px;
+    gap: 20px;
+  }
+  .social-text {
+    height: auto;
+  }
+  .social-title {
+    font-size: 1.4rem;
+    height: auto;
+  }
+  .socials-description {
+    width: 95%;
+    height: auto;
+    font-size: 0.9rem;
+    line-height: 24px;
+  }
+  .social-icon {
+    height: auto;
+    min-height: 150px;
+  }
+  .Thanks {
+    height: auto;
+    padding: 20px 15px;
+  }
+  .thanks-title {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  footer p {
+    font-size: 0.85rem;
+  }
 }
-

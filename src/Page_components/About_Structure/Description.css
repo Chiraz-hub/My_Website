@@ -41,3 +41,57 @@ padding: 10px 20px;
 
 
 
+/* Tablets (Landscape) / Laptops: 769px to 1024px */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .whoami {
+    font-size: 1.8rem;
+  }
+  .textdes {
+    font-size: 0.95rem;
+  }
+}
+
+/* Tablets (Portrait): 481px to 768px */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .description-container {
+    padding: 10px 15px;
+    height: auto;
+  }
+  .imageMe {
+    height: auto;
+    padding: 20px 0;
+  }
+  .text-description {
+    height: auto;
+    padding: 10px 0;
+  }
+  .whoami {
+    font-size: 1.6rem;
+  }
+  .textdes {
+    font-size: 0.95rem;
+  }
+}
+
+/* Mobile: Up to 480px */
+@media screen and (max-width: 480px) {
+  .description-container {
+    padding: 10px 15px;
+    height: auto;
+  }
+  .imageMe {
+    height: auto;
+    padding: 20px 0;
+  }
+  .text-description {
+    height: auto;
+    padding: 10px 0;
+  }
+  .whoami {
+    font-size: 1.4rem;
+  }
+  .textdes {
+    font-size: 0.9rem;
+    line-height: 22px;
+  }
+}

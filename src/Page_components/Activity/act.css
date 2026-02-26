@@ -27,3 +27,50 @@
   margin-bottom: 0;
   font-size: 2rem;
 }
+
+/* Tablets (Landscape) / Laptops: 769px to 1024px */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .activity-title {
+    font-size: 1.8rem;
+  }
+  .card-container {
+    gap: 20px;
+    padding: 15px;
+  }
+}
+
+/* Tablets (Portrait): 481px to 768px */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .hole-act {
+    height: auto;
+    padding: 15px;
+  }
+  .act-container {
+    height: auto;
+  }
+  .activity-title {
+    font-size: 1.6rem;
+  }
+  .card-container {
+    gap: 20px;
+    padding: 10px;
+  }
+}
+
+/* Mobile: Up to 480px */
+@media screen and (max-width: 480px) {
+  .hole-act {
+    height: auto;
+    padding: 10px;
+  }
+  .act-container {
+    height: auto;
+  }
+  .activity-title {
+    font-size: 1.4rem;
+  }
+  .card-container {
+    gap: 15px;
+    padding: 8px;
+  }
+}

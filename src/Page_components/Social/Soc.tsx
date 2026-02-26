@@ -51,6 +51,18 @@ const Wrapper = styled.div`
   justify-content:center;
   align-items:center;
 
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    --size: 80px;
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    --size: 72px;
+  }
+
+  @media screen and (max-width: 480px) {
+    --size: 60px;
+  }
+
   .main{
     display:flex;
     flex-direction:column;

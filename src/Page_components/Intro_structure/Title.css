@@ -147,3 +147,60 @@ li{
 .soft-sec{
    color: rgb(22, 208, 190);
 }
+
+/* Tablets (Landscape) / Laptops: 769px to 1024px */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .gre-h1 {
+    font-size: 1.8rem;
+  }
+}
+
+/* Tablets (Portrait): 481px to 768px */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .gre-h1 {
+    font-size: 1.6rem;
+  }
+  .abt-btn {
+    font-size: 0.8rem;
+    padding: 4px;
+  }
+  ul {
+    gap: 12px;
+  }
+  .top-page {
+    height: auto;
+    padding: 8px 10px;
+  }
+  .intro {
+    height: auto;
+    padding: 40px 20px;
+  }
+}
+
+/* Mobile: Up to 480px */
+@media screen and (max-width: 480px) {
+  .gre-h1 {
+    font-size: 1.4rem;
+  }
+  .small-des-gre {
+    font-size: 0.9rem;
+  }
+  .abt-btn {
+    font-size: 0.7rem;
+    padding: 3px;
+  }
+  ul {
+    gap: 8px;
+  }
+  .name-gre {
+    font-size: 1rem;
+  }
+  .top-page {
+    height: auto;
+    padding: 8px 10px;
+  }
+  .intro {
+    height: auto;
+    padding: 40px 20px;
+  }
+}
