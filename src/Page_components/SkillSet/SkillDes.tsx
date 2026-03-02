@@ -12,8 +12,7 @@ function Skill() {
                     </div>
                     <div className = 'skill-icon'>
                         <div className = 'skill-security'>
-                        <span className = 'skill-tag'>Algorithms</span>
-                        <span className = 'skill-tag'>Data Structures</span>
+                        <span className = 'skill-tag'>Algorithms & DSA</span>
                         <span className = 'skill-tag'>Linux</span>
                         <span className = 'skill-tag'>Security</span>
                         </div>

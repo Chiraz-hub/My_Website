@@ -1,19 +1,14 @@
  import './Description.css'
- import Loader from './descriptionLogo'
 function Desc(){
     return(
         <div className="description-container">
-       
-      <div className ='imageMe'>
-        <Loader />
-      </div>  
       <div className ='text-description'>
              <h1 className = 'whoami'>
         WHO AM I ?
      </h1> 
+       <p className = 'smalltitle-abtme'>Aspiring Software Engineer passionate about solving real-world problems with code.</p>
      <p className ='textdes'>
-        Boucenna Chiraz a motivated and detail-oriented developer with a strong foundation in algorithms, JavaScript, CSS, and modern web technologies.
-        I am passionate about problem-solving and continuous learning, enjoying building clean, efficient solutions and exploring new concepts in programming and data analysis.
+     I'm Chiraz, a developer who enjoys turning complex problems into simple, elegant solutions. I specialize in algorithms, modern web technologies, and clean code architecture. I'm always learning, always building, and always improving.
      </p>
      </div>
      </div>

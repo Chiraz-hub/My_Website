@@ -32,8 +32,8 @@ import Soft from './ActIcon/Soft'
   ];
 function Activity(){
     return (
-      <div className='hole-act'>
-        <div>
+        <div className = 'All-Act'>
+          <div>
            <h1 className='activity-title'>WHAT I DO ?</h1>
         </div>
       <div className = 'act-container'>
@@ -48,7 +48,7 @@ function Activity(){
         ))}
          </div>
       </div>
-      </div>
+        </div>
     );
 }
  export default  Activity;
