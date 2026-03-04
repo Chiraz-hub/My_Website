@@ -9,8 +9,8 @@
   background: rgba(255,255,255,0.05);
   border-radius:20px;
   max-width:300px;
-  border:1px solid rgba(0,255,255,0.2);
-  box-shadow:0 0 40px rgba(0,255,255,0.15);
+  border:0.5px solid rgba(0,255,255,0.2);
+  box-shadow:0 0 5px rgba(0,255,255,0.15);
   animation: float 6s ease-in-out infinite;
   transform: translateY(40px);
   animation: fadeUp 1.2s ease forwards;
@@ -30,6 +30,7 @@
  }
  .cards-title{
        color:rgb(22, 208, 190);
+       margin: 0;
  }
  .desc-cards{
     width: 85%;
