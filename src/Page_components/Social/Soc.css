@@ -117,3 +117,20 @@ footer p{
     transform: translateY(0px);
   }
 }
+@media screen and (orientation: landscape) and (max-height: 500px){
+   .social-container{
+      flex-direction: row;
+   }
+   .social-description{
+      padding: 5px;
+   }
+   .social-text-container{
+      height: 100%;
+      width: 50%;
+   }
+   .social-icon-container{
+      height: 100%;
+      width: 50%;
+      
+   }
+}

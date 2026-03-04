@@ -233,9 +233,14 @@ li{
    font-size: 1.2rem;
   }
 }
-@media screen and (max-width: 480px) and (orientation: landscape){
-    .text-description{
-      height: 20px;
-      width: 20px;
-    }
+@media screen and (orientation: landscape) and (max-height: 500px){
+   .abt-btn{
+      font-size: 1rem;
+   }
+   .gre-h1{
+      font-size: 1.9rem;
+   }
+   .small-des-gre{
+      font-size: 1rem;
+   }
 }

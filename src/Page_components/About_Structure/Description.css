@@ -65,5 +65,20 @@ padding: 30px;
     transform: translateY(0);
   }
 }
-
-
+@media screen and (orientation: landscape) and (max-height: 500px){
+    .text-description{
+      height: 100%;
+      width: 100%;
+    }
+    .whoami{
+      font-size: 1.2rem;
+    }
+    .smalltitle-abtme{
+      font-size: 1rem;
+      margin-bottom: 0;
+    }
+    .textdes{
+      font-size: 0.9rem;
+      margin: 0;
+    }
+}

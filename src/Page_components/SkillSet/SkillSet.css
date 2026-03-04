@@ -148,3 +148,16 @@ flex-direction: row;
    font-size: 1rem;
 }
 }
+@media screen and (orientation: landscape) and (max-height: 500px){
+   .description-cont-skill{
+      flex-direction: row;
+   }
+   .desc-text-contair{
+      width: 50%;
+      height: 100%;
+   }
+   .skill-icon{
+      height: 100%;
+      width: 50%;
+   }
+}
