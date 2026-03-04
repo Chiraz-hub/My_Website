@@ -5,6 +5,7 @@ const SocialIcon = () => {
   return (
     <StyledWrapper>
       <div className="social-login-icons">
+          <a href="https://x.com/boucenna_c12027" target="_blank" rel="noopener noreferrer">
         <div className="socialcontainer">
           <div className="icon social-icon-1-1">
             <svg viewBox="0 0 512 512" height="1.7em" xmlns="http://www.w3.org/2000/svg" className="svgIcontwit" fill="white">
@@ -16,7 +17,9 @@ const SocialIcon = () => {
               <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
             </svg>
           </div>
-        </div>
+        </div> 
+        </a>
+<a href="https://www.instagram.com/boucenna912?igsh=emJzb3gwZ2JsdXBs" target="_blank" rel="noopener noreferrer">
         <div className="socialcontainer">
           <div className="icon social-icon-2-2">
             <svg fill="white" className="svgIcon" viewBox="0 0 448 512" height="1.5em" xmlns="http://www.w3.org/2000/svg">
@@ -29,6 +32,8 @@ const SocialIcon = () => {
             </svg>
           </div>
         </div>
+        </a>
+          <a href="https://www.facebook.com/share/18Rc8ZhEHo/" target="_blank" rel="noopener noreferrer">
         <div className="socialcontainer">
           <div className="icon social-icon-3-3">
             <svg viewBox="0 0 384 512" fill="white" height="1.6em" xmlns="http://www.w3.org/2000/svg">
@@ -41,6 +46,8 @@ const SocialIcon = () => {
             </svg>
           </div>
         </div>
+        </a>
+          <a href="https://github.com/Chiraz-hub" target="_blank" rel="noopener noreferrer">
         <div className="socialcontainer">
           <div className="icon social-icon-4-4">
             <svg fill="white" viewBox="0 0 496 512" height="1.6em">
@@ -53,6 +60,7 @@ const SocialIcon = () => {
             </svg>
           </div>
         </div>
+        </a>
       </div>
     </StyledWrapper>
   );
