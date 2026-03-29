@@ -31,6 +31,7 @@
  .cards-title{
        color:rgb(22, 208, 190);
        margin: 0;
+       font-size: 1rem;
  }
  .desc-cards{
     width: 85%;

@@ -11,7 +11,7 @@ const Cards : React.FC<cardsComp> = ({ title, description, logo }) => {
             {logo}
           </div>
           <div className = "desc-cards">
-            <h3 className = 'cards-title'>{title}</h3> 
+            <p className = 'cards-title'>{title}</p> 
             <p className = 'cards-description'>{description}</p>
           </div>
         </div>
