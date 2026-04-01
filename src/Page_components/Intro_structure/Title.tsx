@@ -1,12 +1,14 @@
 import './Title.css';
+import image from '../../../mepic.jpg'
 function Greating(){
     return (
       <div className = 'great'>
            <div className="top-page">
             <div className="top-name-container">
-                <p className = "name-gre">Boucenna Chiraz</p>
+
             </div>
-            <nav>
+            <nav>      
+                          <p className = "name-gre">Boucenna Chiraz</p>
                 <ul>
                     <li><button className= 'abt-btn'><a href = '#home'>HOME</a></button></li>
                     <li><button className = 'abt-btn'><a href = '#about'>ABOUT</a></button></li>
@@ -16,11 +18,13 @@ function Greating(){
             </nav>
         </div>
       <div className = "intro">
-     <p className ='location-container'>I'm Boucenna Chiraz</p>
+        <div className = 'pic'><img src = {image} alt = 'picture of me'></img></div>
+     <span className = 'typing-demo'><p className ='location-container'>I'm Boucenna Chiraz</p></span>
      <p className = 'intro-text-container'>
-      <h1 className = 'text-name'>Software Engineering</h1>
-    <p className = 'text-profession'>Aspiring Software Engineer Passionate About Solving Real-World Problems With Code While Working On<span className='soft-sec'> Software & Security </span></p>
+      <h1 className = 'text-name'>CyberSecurity Engineering</h1>
+    <p className = 'text-profession'>Aspiring CyberSecurity Engineer Passionate About Solving Real-World Problems With Code While Working On<span className='soft-sec'> Software & Security </span></p>
      </p>
+     <p className = 'Scrol-down'>Scroll down  ↓</p>
       </div>
       </div>
     );

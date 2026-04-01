@@ -9,7 +9,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 .act-container{
     height: 95%;
@@ -31,7 +31,14 @@
     text-align: center;
   margin-bottom: 0;
   margin: 20px;
+  font-weight: 200;
   font-size: 2rem;
+  border-bottom: 2px solid ;
+}
+@media (min-width: 600px) {
+ .All-Act{
+  align-items: center;
+ }
 }
 @media (min-width: 1024px){
   .card-container{

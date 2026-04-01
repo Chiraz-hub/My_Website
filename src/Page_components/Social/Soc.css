@@ -126,15 +126,18 @@ footer p{
    .social-text{
       width: 100%;
       height: fit-content;
+      align-items: flex-start;
       padding: 5px;
       margin: 10px 0px 0px 0px;
    }
    .social-title{
       font-weight: 300;
+      width: fit-content;
     font-size: clamp(0.5rem, 1.3rem, 2rem );
       margin: 10px;
       font-size: 2rem;
       text-align: start;
+      border-bottom: 2px solid ;
    }
    .social-description{
       text-align: start;
@@ -144,6 +147,22 @@ footer p{
    }
    .Thanks{
       height: 100px;
+   }
+}
+@media (min-width: 600px) {
+   .description-container{
+      align-items: center;
+   }
+   .text-description{
+      max-width: 800px;
+   }
+   .social-text{
+      align-items: center;
+   }
+   .social-description{
+      text-align: center;
+      max-width: 570px;
+      font-size: 1.1rem;
    }
 }
 /*
