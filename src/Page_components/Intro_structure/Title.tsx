@@ -18,13 +18,16 @@ function Greating(){
             </nav>
         </div>
       <div className = "intro">
-        <div className = 'pic'><img src = {image} alt = 'picture of me'></img></div>
+        <div className ='intro-desc'>
+        <div className = 'pic'><img className='mepic' src = {image} alt = 'picture of me'></img></div>
      <span className = 'typing-demo'><p className ='location-container'>I'm Boucenna Chiraz</p></span>
      <p className = 'intro-text-container'>
       <h1 className = 'text-name'>CyberSecurity Engineering</h1>
     <p className = 'text-profession'>Aspiring CyberSecurity Engineer Passionate About Solving Real-World Problems With Code While Working On<span className='soft-sec'> Software & Security </span></p>
      </p>
+    
      <p className = 'Scrol-down'>Scroll down  ↓</p>
+      </div> 
       </div>
       </div>
     );
